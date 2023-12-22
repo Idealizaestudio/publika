@@ -68,7 +68,7 @@
       }
     ],
     "favicon": "@PROJECT_PATH@/assets/images/neon-logo.webp",
-    "mbrsiteDomain": "gi47lsqbgq",
+    "mbrsiteDomain": "qlnd3ntvsx",
     "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -86,7 +86,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Publika ",
+        "title": "HOME",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
