@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'Gilroy-Light';
+   font-display: swap;
+   src: url('Gilroy-Light/font.otf');
+}
+@font-face {
+   font-family: 'Gilroy-ExtraBold';
+   font-display: swap;
+   src: url('Gilroy-ExtraBold/font.otf');
+}
