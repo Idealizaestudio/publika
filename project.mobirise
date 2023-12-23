@@ -70,8 +70,8 @@
       }
     ],
     "favicon": "@PROJECT_PATH@/assets/images/neon-logo.webp",
-    "mbrsiteDomain": "f5hy9pez8c",
-    "imageResize": false,
+    "mbrsiteDomain": "soz4knbzvw",
+    "imageResize": true,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
