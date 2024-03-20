@@ -3,11 +3,11 @@ body {
 }
 .display-1 {
   font-family: 'Gilroy-Light';
-  font-size: 3.9rem;
+  font-size: 3.7rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 4.875rem;
+  font-size: 4.625rem;
 }
 .display-2 {
   font-family: 'Gilroy-ExtraBold';
@@ -19,19 +19,19 @@ body {
 }
 .display-4 {
   font-family: 'Gilroy-Light';
-  font-size: 1rem;
+  font-size: 1.8rem;
   line-height: 1.5;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.25rem;
+  font-size: 2.25rem;
 }
 .display-5 {
   font-family: 'Gilroy-Light';
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 3rem;
+  font-size: 2.75rem;
 }
 .display-7 {
   font-family: 'Gilroy-Light';
@@ -48,14 +48,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 3.12rem;
+    font-size: 2.96rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 2.73rem;
-    font-size: calc( 2.0149999999999997rem + (3.9 - 2.0149999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.0149999999999997rem + (3.9 - 2.0149999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.59rem;
+    font-size: calc( 1.945rem + (3.7 - 1.945) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (1.945rem + (3.7 - 1.945) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 3.04rem;
@@ -63,14 +63,14 @@ body {
     line-height: calc( 1.3 * (1.98rem + (3.8 - 1.98) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.8rem;
-    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.44rem;
+    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.92rem;
-    font-size: calc( 1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.76rem;
+    font-size: calc( 1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
     font-size: 1.04rem;
@@ -587,12 +587,12 @@ a:hover {
 }
 .form-control {
   font-family: 'Gilroy-Light';
-  font-size: 1rem;
+  font-size: 1.8rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.25rem;
+  font-size: 2.25rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -601,12 +601,12 @@ a:hover {
 }
 .form-control:-webkit-input-placeholder {
   font-family: 'Gilroy-Light';
-  font-size: 1rem;
+  font-size: 1.8rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.25rem;
+  font-size: 2.25rem;
 }
 blockquote {
   border-color: #38102b;
@@ -884,6 +884,10 @@ a {
 }
 .cid-u7ol7xdMLS .row {
   justify-content: center;
+}
+.cid-u7ol7xdMLS .card-title,
+.cid-u7ol7xdMLS .iconfont-wrapper {
+  text-align: center;
 }
 .cid-u7ovvK2NUD .float {
   position: fixed;
